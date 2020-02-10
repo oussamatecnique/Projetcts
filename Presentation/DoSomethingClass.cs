@@ -14,23 +14,25 @@ namespace Presentation
         {
             _service = srv;
         }
-        public void execute()
+        public void Execute()
         {
-            Console.WriteLine("All Students");
-            foreach (var std in _service.AllStudents())
-            {
+            
 
-                Console.WriteLine(std);
+                Console.WriteLine("All Students");
+                foreach (var std in _service.AllStudents())
+                {
 
-            }
-            Console.WriteLine("----------------------------");
-            Console.WriteLine("Students of GINF3");
-            foreach (var std in _service.StudentsByClass("GINF3"))
-            {
-                Console.WriteLine(std);
-            }
-            Console.WriteLine("----------------------------");
-            Console.WriteLine("Students of aaaaa");
+                    Console.WriteLine(std);
+
+                }
+                Console.WriteLine("----------------------------");
+                Console.WriteLine("Students of GINF3");
+                foreach (var std in _service.StudentsByClass("GINF3"))
+                {
+                    Console.WriteLine(std);
+                }
+                Console.WriteLine("----------------------------");
+                Console.WriteLine("Students of aaaaa");
             try
             {
                 foreach (var std in _service.StudentsByClass("aaaa"))
@@ -39,18 +41,22 @@ namespace Presentation
                 }
                 Console.WriteLine("----------------------------");
             }
-            catch (Exception e)
+            catch(NullReferenceException)
             {
-                Console.WriteLine(e.Message);
+                Console.WriteLine("its an empty class");
+            }
 
-            }
-            Console.WriteLine("----------------------------");
-            Console.WriteLine("Students of GIND");
-            foreach (var std in _service.StudentsByClass("GIND"))
-            {
-                Console.WriteLine(std);
-            }
-            Console.WriteLine("----------------------------");
+                Console.WriteLine("----------------------------");
+                Console.WriteLine("Students of GIND");
+                foreach (var std in _service.StudentsByClass("GIND"))
+                {
+                    Console.WriteLine(std);
+                }
+                Console.WriteLine("----------------------------");
+            
+            
+            
+         
 
 
 

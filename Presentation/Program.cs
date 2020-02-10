@@ -14,7 +14,7 @@ namespace Presentation
         {
             var unity = RegisterComponent();
             var program = unity.Resolve<DoSomethingClass>();
-            program.execute();
+            program.Execute();
 
         }
     }

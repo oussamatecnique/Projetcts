@@ -32,7 +32,12 @@ namespace Services
 
         {
             List<Student> ListS = new List<Student>();
-            ListS = _context.Classes.Where(a => a.Level.Equals(level)).Select(a => a.Students).FirstOrDefault();
+            
+               ListS = _context.Classes.Where(a => a.Level.Equals(level)).Select(a => a.Students).FirstOrDefault();
+
+            if (ListS == null)
+                throw new NullReferenceException();
+
             return ListS;
         }
 
