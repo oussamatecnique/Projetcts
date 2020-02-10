@@ -1,0 +1,5 @@
+C:\Users\sqli2\source\repos\Presentation\Shared\bin\Debug\Shared.dll
+C:\Users\sqli2\source\repos\Presentation\Shared\bin\Debug\Shared.pdb
+C:\Users\sqli2\source\repos\Presentation\Shared\obj\Debug\Shared.csprojAssemblyReference.cache
+C:\Users\sqli2\source\repos\Presentation\Shared\obj\Debug\Shared.dll
+C:\Users\sqli2\source\repos\Presentation\Shared\obj\Debug\Shared.pdb

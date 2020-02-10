@@ -1,0 +1,8 @@
+C:\Users\sqli2\source\repos\Presentation\Repository\obj\Debug\Repository.csprojAssemblyReference.cache
+C:\Users\sqli2\source\repos\Presentation\Repository\bin\Debug\Repository.dll
+C:\Users\sqli2\source\repos\Presentation\Repository\bin\Debug\Repository.pdb
+C:\Users\sqli2\source\repos\Presentation\Repository\bin\Debug\Shared.dll
+C:\Users\sqli2\source\repos\Presentation\Repository\bin\Debug\Shared.pdb
+C:\Users\sqli2\source\repos\Presentation\Repository\obj\Debug\Repository.csproj.CopyComplete
+C:\Users\sqli2\source\repos\Presentation\Repository\obj\Debug\Repository.dll
+C:\Users\sqli2\source\repos\Presentation\Repository\obj\Debug\Repository.pdb
